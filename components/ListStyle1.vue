@@ -4,7 +4,7 @@
       <v-col
         cols="12" class="pa-2"
       >
-        <v-card-title class="black--text" style="margin: 5px;">{{work.text}}</v-card-title>
+        <v-card-title class="black--text" :style="'margin: 5px;font-size: '+font+'px'">{{work.text}}</v-card-title>
       </v-col>
     </v-row>
   </v-card>
@@ -18,18 +18,18 @@ export default {
   },
 
   computed: {
-    height() {
+    font() {
       switch (this.$vuetify.breakpoint.name) {
         case 'xs':
-          return 250
+          return 10
         case 'sm':
-          return 200
+          return 14
         case 'md':
-          return 200
+          return 14
         case 'lg':
-          return 300
+          return 20
         case 'xl':
-          return 300
+          return 20
       }
     },
   }

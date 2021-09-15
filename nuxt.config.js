@@ -6,9 +6,12 @@ export default {
 
   // Target: https://go.nuxtjs.dev/config-target
   target: 'static',
+  server: {
+    host: '0.0.0.0'
+  },
 
   generate: {
-    routes: ['/harmony/violin','/harmony/guitar','/harmony/harmonica','/harmony/accordion','/harmony/cajon','/harmony/saxophone','/harmony/flute','/harmony/violoncello','/harmony/tar','/harmony/treetar','/harmony/ood','/harmony/santor','/harmony/kamanche','/harmony/ney','/harmony/tonbak','/harmony/daf','/harmony/twotar','/harmony/bagma','/harmony/tanbor',]
+    routes: ['/harmony/violin', '/harmony/guitar', '/harmony/harmonica', '/harmony/accordion', '/harmony/cajon', '/harmony/saxophone', '/harmony/flute', '/harmony/violoncello', '/harmony/tar', '/harmony/treetar', '/harmony/ood', '/harmony/santor', '/harmony/kamanche', '/harmony/ney', '/harmony/tonbak', '/harmony/daf', '/harmony/twotar', '/harmony/bagma', '/harmony/tanbor',]
   },
 
   // Global page headers: https://go.nuxtjs.dev/config-head
@@ -45,6 +48,7 @@ export default {
     // https://go.nuxtjs.dev/vuetify
     ['@nuxtjs/vuetify', {rtl: true,}],
     '@nuxtjs/google-analytics',
+    '@nuxtjs/device',
   ],
 
   googleAnalytics: {
@@ -66,6 +70,10 @@ export default {
       ],
       langDir: 'lang/',
       defaultLocale: 'fa',
+    }],
+    ['nuxt-gmaps', {
+      key: 'AIzaSyC0W6O9lVf-QVCrYiiReR0heBy8MKp-dhA',
+      //you can use libraries: ['places']
     }]
   ],
 
@@ -76,7 +84,7 @@ export default {
   vuetify: {
     customVariables: ['~/assets/variables.scss'],
     theme: {
-      dark: true,
+      dark: false,
       themes: {
         dark: {
           primary: colors.blue.darken2,

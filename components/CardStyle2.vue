@@ -1,5 +1,5 @@
 <template>
-  <v-card :href="data.url" class="ma-1" :max-width="width*2+'px'" :height="height+'px'"
+  <v-card :href="data.url" class="ma-1" :max-width="width*3+'px'" :height="height*2+'px'"
           :style="'background-color: #fff;direction:' + this.$t('direction')">
     <v-row class="ma-auto justify-center"
            :style="'direction:' + this.$t('direction')+';height: 100%;width: 100%;'" align="center"

@@ -9,8 +9,8 @@
         xs="12"
         sm="12"
         md="6"
-        lg="4"
-        xl="4"
+        lg="6"
+        xl="6"
       >
         <CardStyle2 :data="gallery"/>
       </v-col>

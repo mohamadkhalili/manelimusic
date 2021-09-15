@@ -1,8 +1,8 @@
 <template>
 
-  <div id="cropper" style="height:calc(100vh - 60px) !important;">
-    <v-img id="main_img" src="banerandlogo/banner1.jpg"
-           style="width: 100%">
+  <div id="cropper" style="height:calc(100vh - 60px) !important;z-index: 3">
+    <v-img id="main_img" src="banerandlogo/banner1.png"
+           style="width: 100%;z-index: 3">
     </v-img>
 
     <div class="justify-center" style="margin: 20px">
