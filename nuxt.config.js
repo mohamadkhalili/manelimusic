@@ -11,7 +11,39 @@ export default {
   },
 
   generate: {
-    routes: ['/harmony/violin', '/harmony/guitar', '/harmony/harmonica', '/harmony/accordion', '/harmony/cajon', '/harmony/saxophone', '/harmony/flute', '/harmony/violoncello', '/harmony/tar', '/harmony/treetar', '/harmony/ood', '/harmony/santor', '/harmony/kamanche', '/harmony/ney', '/harmony/tonbak', '/harmony/daf', '/harmony/twotar', '/harmony/bagma', '/harmony/tanbor',]
+    routes: [
+      '/harmony/violin',
+      '/harmony/guitar',
+      '/harmony/harmonica',
+      '/harmony/accordion',
+      '/harmony/cajon',
+      '/harmony/saxophone',
+      '/harmony/flute',
+      '/harmony/violoncello',
+      '/harmony/tar',
+      '/harmony/treetar',
+      '/harmony/ood',
+      '/harmony/santor',
+      '/harmony/kamanche',
+      '/harmony/ney',
+      '/harmony/tonbak',
+      '/harmony/daf',
+      '/harmony/twotar',
+      '/harmony/bagma',
+      '/harmony/tanbor',
+      '/professors/ماهیار تمسکنی',
+      '/professors/علی آریا احمدیان',
+      '/professors/فروغ یوسفی',
+      '/professors/نگار شیخ سلیمی',
+      '/professors/سروه بابلی',
+      '/professors/سجاد تهذیبی',
+      '/professors/مزدک توسلی',
+      '/professors/شهاب قاسمی',
+      '/professors/فرهاد فتحی راد',
+      '/professors/علی کلانتری',
+      '/professors/مینا مهدی‌پور',
+      '/professors/چکاد فشارکی',
+    ]
   },
 
   // Global page headers: https://go.nuxtjs.dev/config-head

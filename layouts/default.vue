@@ -80,15 +80,15 @@
         <v-icon :color="color_s">mdi-send mdi-rotate-315</v-icon>
       </v-btn>
 
-      <v-btn href="" icon>
-        <v-icon :color="color_s">mdi-youtube</v-icon>
+      <v-btn href="https://wa.me/+98-(921)2178078" icon>
+        <v-icon :color="color_s">mdi-whatsapp</v-icon>
       </v-btn>
 
       <v-btn href="" icon>
         <v-icon :color="color_s">mdi-email</v-icon>
       </v-btn>
 
-      <v-btn href="" icon>
+      <v-btn href="https://www.aparat.com/ManelimusicAcademy" icon>
         <v-img :color="color_s" src="/aparat.svg" height="25px" width="25px" contain></v-img>
       </v-btn>
     </v-app-bar>
@@ -246,9 +246,9 @@
           <v-icon :color="color_s">mdi-send mdi-rotate-315</v-icon>
         </v-btn>
 
-        <v-btn href="" icon style="margin: 2px">
-          <v-icon :color="color_s">mdi-youtube</v-icon>
-        </v-btn>
+      <v-btn href="https://wa.me/+98-(921)2178078" icon style="margin: 2px">
+        <v-icon :color="color_s">mdi-whatsapp</v-icon>
+      </v-btn>
 
         <v-btn href="" icon style="margin: 2px">
           <v-icon :color="color_s">mdi-email</v-icon>
