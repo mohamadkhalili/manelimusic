@@ -11,8 +11,8 @@
       :style="'direction: ' + $t('direction')"
     >
       <nuxt-link v-if="windowSize.x > 1032" to="/#">
-        <v-img height="50px" width="70px" class="ma-0" contain
-               src="banerandlogo/Logo.jpg"></v-img>
+        <image height="50px" width="70px" class="ma-0" contain
+               src="/banerandlogo/logo.jpg"></image>
       </nuxt-link>
 
       <v-app-bar-nav-icon v-if="windowSize.x <= 1032" :color="color_s"
@@ -88,9 +88,6 @@
         <v-icon :color="color_s">mdi-email</v-icon>
       </v-btn>
 
-      <v-btn href="https://www.aparat.com/ManelimusicAcademy" icon>
-        <v-img :color="color_s" src="/aparat.svg" height="25px" width="25px" contain></v-img>
-      </v-btn>
     </v-app-bar>
     <v-navigation-drawer
       v-if="windowSize.x <= 1032"
@@ -162,7 +159,7 @@
       <div style="width: 100% !important;height: 100px;position: absolute;bottom: 0;margin-bottom: 10px">
         <nuxt-link to="/#">
           <v-img width="120px" style="margin-left: auto;margin-right: auto;margin-top: auto"
-                 src="banerandlogo/Logo.jpg"></v-img>
+                 src="/banerandlogo/logo.jpg"></v-img>
         </nuxt-link>
       </div>
 
@@ -176,7 +173,7 @@
       <v-col>
         <nuxt-link to="/#">
           <v-img height="60px" width="70px" class="ma-0" contain
-                 src="banerandlogo/Logo.jpg"></v-img>
+                 src="/banerandlogo/logo.jpg"></v-img>
         </nuxt-link>
       </v-col>
 
@@ -237,7 +234,7 @@
 
       <v-spacer></v-spacer>
 
-      <v-col style="max-width: 250px;min-width:250px;margin-top: 6px">
+      <v-col style="max-width: 220px;min-width:220px;margin-top: 6px">
         <v-btn href="https://www.instagram.com/manelimusic/?hl=en" icon style="margin: 2px">
           <v-icon :color="color_s">mdi-instagram</v-icon>
         </v-btn>
@@ -254,9 +251,7 @@
           <v-icon :color="color_s">mdi-email</v-icon>
         </v-btn>
 
-        <v-btn href="" icon style="margin: 2px">
-          <v-img :color="color_s" src="/aparat.svg" height="25px" width="25px" contain></v-img>
-        </v-btn>
+
       </v-col>
     </v-row>
     <v-main id="main">

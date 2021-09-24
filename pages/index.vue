@@ -35,9 +35,9 @@
 
       <p class="text-right justify-center" color="#CDDC39" :style="style_main_title" v-html="$t('main_title')">
       </p>
-<v-img src="banerandlogo/main_b.jpg"
-           style="max-width: 250px;z-index: 3">
-    </v-img>
+      <v-img src="banerandlogo/main_b.jpg"
+             style="max-width: 250px;z-index: 3">
+      </v-img>
 
 
       <p class="text-right justify-center" color="#CDDC39" :style="style_main_subtitle" v-html="$t('main_subtitle')">
