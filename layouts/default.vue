@@ -88,6 +88,10 @@
         <v-icon :color="color_s">mdi-email</v-icon>
       </v-btn>
 
+      <v-btn href="https://www.aparat.com/ManelimusicAcademy" icon>
+        <v-img :color="color_s" src="/aparat.svg" height="25px" width="25px" contain></v-img>
+      </v-btn>
+
     </v-app-bar>
     <v-navigation-drawer
       v-if="windowSize.x <= 1032"
@@ -234,7 +238,7 @@
 
       <v-spacer></v-spacer>
 
-      <v-col style="max-width: 220px;min-width:220px;margin-top: 6px">
+      <v-col style="max-width: 220px;min-width:250px;margin-top: 6px">
         <v-btn href="https://www.instagram.com/manelimusic/?hl=en" icon style="margin: 2px">
           <v-icon :color="color_s">mdi-instagram</v-icon>
         </v-btn>
@@ -243,14 +247,17 @@
           <v-icon :color="color_s">mdi-send mdi-rotate-315</v-icon>
         </v-btn>
 
-      <v-btn href="https://wa.me/+98-(921)2178078" icon style="margin: 2px">
-        <v-icon :color="color_s">mdi-whatsapp</v-icon>
-      </v-btn>
+        <v-btn href="https://wa.me/+98-(921)2178078" icon style="margin: 2px">
+          <v-icon :color="color_s">mdi-whatsapp</v-icon>
+        </v-btn>
 
         <v-btn href="" icon style="margin: 2px">
           <v-icon :color="color_s">mdi-email</v-icon>
         </v-btn>
 
+        <v-btn href="https://www.aparat.com/ManelimusicAcademy" icon style="margin: 2px">
+          <v-img :color="color_s" src="/aparat.svg" height="25px" width="25px" contain></v-img>
+        </v-btn>
 
       </v-col>
     </v-row>
