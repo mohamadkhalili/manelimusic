@@ -1,11 +1,10 @@
 <template>
-
   <div id="cropper" style="min-height:calc(100vh - 60px) !important;z-index: 3">
     <show-message-counter :text-list="news"/>
     <v-img id="main_img" src="banerandlogo/banner.png"
+           alt="مانلی موزیک"
            style="width: 100%;z-index: 3">
     </v-img>
-
     <p class="ma-2" :style="style_main_subtitle+'margin-right: 25px'">
       <br/>
       مرکز تخصصی آموزش سازهای ایرانی و کلاسیک
@@ -15,7 +14,6 @@
       گیتار، پیانو، ویلن، هارمونیکا، موسیقی کودک ( ارف)، سلفژ و ...
       <br/>
     </p>
-
     <v-slide-group
       class="pa-4"
       show-arrows
@@ -30,22 +28,17 @@
                         :title="professor.title" :subtitle="professor.subtitle"/>
       </v-slide-item>
     </v-slide-group>
-
     <div class="justify-center" style="margin: 20px">
-
       <p class="text-right justify-center" color="#CDDC39" :style="style_main_title" v-html="$t('main_title')">
       </p>
       <v-img src="banerandlogo/main_b.jpg"
+             alt="مانلی موزیک"
              style="max-width: 250px;z-index: 3">
       </v-img>
-
-
       <p class="text-right justify-center" color="#CDDC39" :style="style_main_subtitle" v-html="$t('main_subtitle')">
       </p>
     </div>
-
   </div>
-
 </template>
 
 <script>

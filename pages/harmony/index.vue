@@ -12,7 +12,7 @@
         lg="4"
         xl="4"
       >
-        <CardStyle3 :data="harmony"/>
+        <card-style3 :data="harmony"/>
       </v-col>
     </v-row>
   </v-app>

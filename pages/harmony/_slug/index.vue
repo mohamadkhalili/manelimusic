@@ -13,6 +13,7 @@
               :src="img1"
               :lazy-src="img1"
               aspect-ratio="1"
+              :alt="harmony.title"
               class="grey lighten-2"
             >
               <template v-slot:placeholder>
@@ -56,6 +57,7 @@
               :src="img2"
               :lazy-src="img2"
               aspect-ratio="1"
+              :alt="harmony.title"
               class="grey lighten-2"
             >
               <template v-slot:placeholder>
@@ -76,7 +78,7 @@
       </v-row>
     </template>
 
-        <template v-if="harmony">
+    <template v-if="harmony">
       <div class="justify-center" style="margin-top: 20px;margin-bottom: 20px;">
 
         <p class="text-right justify-center" color="#CDDC39" :style="style_main_subtitle" v-html="harmony.text2">
@@ -91,6 +93,18 @@ export default {
   data() {
     return {
       harmony: null,
+    }
+  },
+  head() {
+    return {
+      title: this?.harmony?.title,
+      meta: [
+        {
+          hid: 'description',
+          name: 'description',
+          content: this?.harmony?.text1
+        }
+      ]
     }
   },
   async mounted() {

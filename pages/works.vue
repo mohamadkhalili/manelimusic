@@ -12,7 +12,7 @@
         lg="4"
         xl="4"
       >
-        <CardStyle1 :data="Work"/>
+        <card-style1 :data="Work"/>
       </v-col>
     </v-row>
   </v-app>

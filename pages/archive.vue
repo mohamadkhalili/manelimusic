@@ -12,7 +12,7 @@
         lg="4"
         xl="4"
       >
-        <CardStyle4 :data="archive"/>
+        <card-style4 :data="archive"/>
       </v-col>
     </v-row>
   </v-app>

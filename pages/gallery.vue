@@ -12,7 +12,7 @@
         lg="6"
         xl="6"
       >
-        <CardStyle2 :data="gallery"/>
+        <card-style2 :data="gallery"/>
       </v-col>
     </v-row>
   </v-app>

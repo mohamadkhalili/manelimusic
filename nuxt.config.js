@@ -48,16 +48,16 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    titleTemplate: '%s - manelimusic',
-    title: 'manelimusic',
+    titleTemplate: '%s - مانلی موزیک',
+    title: 'مانلی موزیک',
     htmlAttrs: {
       lang: 'en'
     },
     meta: [
       {charset: 'utf-8'},
       {name: 'viewport', content: 'width=device-width, initial-scale=1'},
-      {hid: 'description', name: 'description', content: ''},
-      {name: 'format-detection', content: 'telephone=no'}
+      {hid: 'description', name: 'description', content: 'آموزشگاه موسیقی مانلی از سال ۱۳۹۴ فعالیت خود را با مدیریت علی آریا احمدیان و با شماره مجور ۱۷۱۱۰۰۳۹۴۰۰۳۷ از وزارت فرهنگ و ارشاد اسلامی، آغاز نمود.'},
+      {name: 'format-detection', content: 'telephone=+9821-66000028'}
     ],
     link: [
       {rel: 'icon', type: 'image/x-icon', href: '/Logo.ico'}
@@ -98,7 +98,14 @@ export default {
           code: 'fa',
           iso: 'fa-IR',
           file: 'fa-IR.js'
-        }
+        },
+        // be dalil nages bodan nemitavan rahandazi kard
+        // {
+        //   name: 'English',
+        //   code: 'en',
+        //   iso: 'en-US',
+        //   file: 'en-US.js'
+        // }
       ],
       langDir: 'lang/',
       defaultLocale: 'fa',

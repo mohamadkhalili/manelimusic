@@ -1,7 +1,7 @@
 <template>
   <div class="pa-2" style="width: 100%;max-width: 100%;padding: 15px;" v-if="professor">
     <div class="" style="max-width: 400px;margin: auto">
-      <v-img class="align-center text-center" :src="professor.img"
+      <v-img class="align-center text-center" :src="professor.img" :alt="professor.title"
              style="max-width: 400px;text-align: center;margin: 0;display: block"></v-img>
       <p :style="'text-align: center;font-size: '+font_size*2+'px;'">{{ professor.title }}</p>
       <p :style="'text-align: center;font-size: '+font_size*1.2+'px;'">{{ professor.subtitle }}</p>
@@ -41,6 +41,18 @@ export default {
       slug: this.$route.params.slug,
       professors: this.$t('professors'),
       professor: null
+    }
+  },
+  head() {
+    return {
+      title: this?.professor?.title,
+      meta: [
+        {
+          hid: 'description',
+          name: 'description',
+          content: this?.professor?.subtitle
+        }
+      ]
     }
   },
   mounted() {
